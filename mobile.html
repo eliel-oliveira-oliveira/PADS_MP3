@@ -8,13 +8,13 @@
     <title>Botões com Áudio</title>
     <style>
         body {
-            background-color: rgb(33, 30, 30);
-            margin: 0;
+            background-color: rgb(33, 30, 30); /* Adiciona esta linha para definir o fundo como preto */
+            margin: 0; /* Define a margem do corpo como 0 para evitar espaçamento padrão */
         }
 
         .button-container {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 10px;
             margin: 20px;
         }
@@ -22,7 +22,7 @@
         .button {
             width: 100%;
             padding: 10px;
-            height: 150px;
+            height: 50px;
             text-align: center;
             background-color: #123617;
             color: #fff;
@@ -53,16 +53,9 @@
         <button id="button18" class="button" onclick="playAudio(18)" disabled>Vazio</button>
         <button id="button19" class="button" onclick="playAudio(19)" disabled>Vazio</button>
         <button id="button20" class="button" onclick="playAudio(20)">Parar</button>
+        <!-- Adicione os outros botões aqui conforme necessário -->
     </div>
     
     <script src="script2.js"></script>
-
-    <script>
-        // Verifica se o dispositivo é um dispositivo móvel
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // Redireciona para a versão mobile
-            window.location.href = 'mobile.html';
-        }
-    </script>
 </body>
 </html>
