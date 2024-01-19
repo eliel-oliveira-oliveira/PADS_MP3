@@ -1,68 +1,66 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botões com Áudio</title>
+    <title>KIWI CHUVOSO - Compartilhamento de Aplicações para Gamers</title>
     <style>
         body {
-            background-color: rgb(33, 30, 30);
-            margin: 0;
-        }
-
-        .button-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            margin: 20px;
-        }
-
-        .button {
-            width: 100%;
-            padding: 10px;
-            height: 150px;
-            text-align: center;
-            background-color: #123617;
+            background-color: #1a1a1a;
             color: #fff;
-            border: none;
-            cursor: default;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="button-container">
-        <button id="button1" class="button" onclick="playAudio(1)" disabled>Botão 1</button>
-        <button id="button2" class="button" onclick="playAudio(2)" disabled>Botão 2</button>
-        <button id="button3" class="button" onclick="playAudio(3)" disabled>Vazio</button>
-        <button id="button4" class="button" onclick="playAudio(4)" disabled>Vazio</button>
-        <button id="button5" class="button" onclick="playAudio(5)" disabled>Vazio</button>
-        <button id="button6" class="button" onclick="playAudio(6)" disabled>Vazio</button>
-        <button id="button7" class="button" onclick="playAudio(7)" disabled>Vazio</button>
-        <button id="button8" class="button" onclick="playAudio(8)" disabled>Vazio</button>
-        <button id="button9" class="button" onclick="playAudio(9)" disabled>Vazio</button>
-        <button id="button10" class="button" onclick="playAudio(10)" disabled>Vazio</button>
-        <button id="button11" class="button" onclick="playAudio(11)" disabled>Vazio</button>
-        <button id="button12" class="button" onclick="playAudio(12)" disabled>Vazio</button>
-        <button id="button13" class="button" onclick="playAudio(13)" disabled>Vazio</button>
-        <button id="button14" class="button" onclick="playAudio(14)" disabled>Vazio</button>
-        <button id="button15" class="button" onclick="playAudio(15)" disabled>Vazio</button>
-        <button id="button16" class="button" onclick="playAudio(16)" disabled>Vazio</button>
-        <button id="button17" class="button" onclick="playAudio(17)" disabled>Vazio</button>
-        <button id="button18" class="button" onclick="playAudio(18)" disabled>Vazio</button>
-        <button id="button19" class="button" onclick="playAudio(19)" disabled>Vazio</button>
-        <button id="button20" class="button" onclick="playAudio(20)">Parar</button>
-    </div>
-    
-    <script src="script2.js"></script>
+    <header>
+        <h1>KIWI CHUVOSO</h1>
+        <p>Compartilhamento de Aplicações para Gamers</p>
+    </header>
 
-    <script>
-        // Verifica se o dispositivo é um dispositivo móvel
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // Redireciona para a versão mobile
-            window.location.href = 'mobile.html';
-        }
-    </script>
+    <main>
+        <p>Bem-vindo ao Kiwi Chuvoso, o lugar onde você pode encontrar e compartilhar aplicações voltadas para gamers.</p>
+
+        <nav>
+            <a href="mobile.html">Versão Mobile</a>
+            <a href="desktop.html">Versão Desktop</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kiwi Chuvoso. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
