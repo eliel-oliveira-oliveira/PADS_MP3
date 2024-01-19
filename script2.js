@@ -13,7 +13,7 @@ var jsonObj = {
             "TOGURO.mp3",
             "TOXIC.mp3",
             "VEADOS.mp3",
-            "ZÉ DA MANGA.mp3",
+            "ZE DA MANGA.mp3",
         ]
     };
 
