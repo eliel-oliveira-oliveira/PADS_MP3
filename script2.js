@@ -25,7 +25,7 @@ var audio;
 function playAudio(audio_id) {
 
     if (audioEmExecucao) {
-        audioEmExecucao.pause();
+        //audioEmExecucao.pause();
     }
 
     audio = new Audio("audio/" + jsonObj.audioFiles[audio_id-1]);
